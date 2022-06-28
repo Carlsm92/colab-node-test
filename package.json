@@ -1,0 +1,24 @@
+{
+  "name": "colab-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlsm92/colab-node-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlsm92/colab-node-test/issues"
+  },
+  "homepage": "https://github.com/Carlsm92/colab-node-test#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
