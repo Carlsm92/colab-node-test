@@ -1,6 +1,6 @@
 import { saludo } from "./functions/greeting.js"
 
-const name = "Pedro"
+const name = "pedro"
 
 saludo(name) // <- Esta función debe devolver "Hola, 'nombre'"
 

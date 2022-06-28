@@ -1,3 +1,4 @@
 export const saludo = (name) => {
-  console.log(`Hola, ${name}`)
+  name = name.charAt(0).toUpperCase() + name.slice(1)
+    console.log(`Hola, ${name}`)
 }
