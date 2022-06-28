@@ -1,3 +1,7 @@
+import { saludo } from "./functions/greeting.js"
+
+const name = "Pedro"
+
 saludo(name) // <- Esta función debe devolver "Hola, 'nombre'"
 
 // La función 'saludo' debe existir en la ruta src/functions/greeting.js
