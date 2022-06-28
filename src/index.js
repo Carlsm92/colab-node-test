@@ -1,9 +1,6 @@
-import { saludo } from "./functions/greeting.js"
+import { saludoDeCarlos, saludoDeJero } from './functions/greeting.js'
 
-const name = "carlos"
+const name = 'jERO'
 
-saludo(name) // <- Esta función debe devolver "Hola, 'nombre'"
-
-// La función 'saludo' debe existir en la ruta src/functions/greeting.js
-// El parámetro name debe ser de tipo string
-// La función debe devolver un string con la primera letra del nombre en mayúsucla y el resto en minúscula
+saludoDeCarlos(name)
+console.log(saludoDeJero(name))
